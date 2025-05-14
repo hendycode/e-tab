@@ -10,7 +10,7 @@ if greeting == "tablet":
         if drink == "alcoholic":
             alcohol = input("We have the following assortment of alcoholic drinks that you can enjoy today; Wine, Champagne, Cocktails, Spirits, Gin. Choose the one you would like: ").lower()
             if alcohol == "wine":
-                whichwine = input("Please choose the type of wine you would like to enjoy today, we have White wine, red wine, barolo ")
+                whichwine = input("Please choose the type of wine you would like to enjoy today, we have White wine, red wine, barolo ").lower()
                 print(f"Your {whichwine} will be served in a flash")
             elif alcohol == "champagne":
                 whatchampe = input("We have a variety of champagnes you can choose from, take a look: Dom Pérignon, Krug Grande Cuvée,  chateau maragaux, brut nature, extra brut, moet & chandon, bollinger, ruinart, taittinger  ").lower()
@@ -28,7 +28,7 @@ if greeting == "tablet":
         elif drink == "non-alcoholic":
             noalcohol = input("We have the following assortment of non-alcoholic drinks you can enjoy today: Mocktails, Fresh juices, Tea, Coffee.Please make your selection: ").lower()
             if noalcohol == "mocktails":
-                mock = input("Here are the different types of mocktails we have today: Virgin Mojito, Nojito, Cucumber Cooler, Tropical Sunrise. Please choose the one you would like to have: ")
+                mock = input("Here are the different types of mocktails we have today: Virgin Mojito, Nojito, Cucumber Cooler, Tropical Sunrise. Please choose the one you would like to have: ").lower()
                 print(f"Nice taste, your {mock} will be served in a flash")
             elif noalcohol == "fresh juices":
                 juice = input("On our assortment of juices we have the following available:  Cold-pressed orange, green apple, beetroot-carrot-ginger blend, passion and mango blend. Please choose one you would like: ").lower()
